@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+}
+
+#titulo {
+
+    background-color: aquamarine;
+    text-align: center;
+    padding: 50px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    background-color: gold;
+    padding: 15px;
+    padding-right: 40px;
+}
+
+ul > li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    padding: 3px;
+    background-color: goldenrod;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover{
+    color: navy;
+}
+
+a:active {
+    color: brown;
+}
+
+body {
+    background-image: url("IMAGENES/pagina-principal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#descripcion {
+    text-align: left;
+    font-size: xx-large;
+    padding-top: 180px;
+    padding-left: 50px;
+    padding-right: 900px;
+    padding-bottom: 100px;
+}
+
+iframe {
+    width: 100%;
+    height: 582.4px;
+    border: none;
+}
+
+#g {
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+#t {
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+#rd {
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+#p1playa1:first-child:first-letter{
+    color: rebeccapurple;
+    font-size: 50px;
+}
+
+#textogrecia {
+    text-align: justify;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:large ;
+}
+
+#p1playa1 {
+    padding-bottom: 20px;
+}
+
+#p2playa1 {
+    padding-bottom: 20px;
+}
+
+#p1playa2:first-child:first-letter{
+    color: rebeccapurple;
+    font-size: 50px;
+}
+
+#textotailandia {
+    text-align: justify;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:large ;
+}
+
+#p1playa2 {
+    padding-bottom: 20px;
+}
+
+#p2playa2 {
+    padding-bottom: 20px;
+}
+
+#p1playa3:first-child:first-letter{
+    color: rebeccapurple;
+    font-size: 50px;
+}
+
+#textord {
+    text-align: justify;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:large ;
+}
+
+#p1playa3 {
+    padding-bottom: 20px;
+}
+
+#p2playa3 {
+    padding-bottom: 20px;
+}
+
+#p1pl1d1:first-child::first-line{
+    color: rebeccapurple;
+    font-size: 50px;
+}
+
+#textodato1 {
+    text-align: justify;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:large ;
+}
+
+#p1pl1d1 {
+    padding-bottom: 20px;
+}
+
+#p1pl1d2:first-child::first-line{
+    color: rebeccapurple;
+    font-size: 75px;
+}
+
+#textodato2 {
+    text-align: justify;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:large ;
+}
+
+#p1pl1d2 {
+    padding-bottom: 20px;
+}
+
+#p1pl2d1:first-child::first-line{
+    color: rebeccapurple;
+    font-size: 60px;
+}
+
+#textodato3 {
+    text-align: justify;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:large ;
+}
+
+#p1pl2d1 {
+    padding-bottom: 20px;
+}
+
+#p1pl2d2:first-child::first-line{
+    color: rebeccapurple;
+    font-size: 60px;
+}
+
+#textodato4 {
+    text-align: justify;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:large ;
+}
+
+#p1pl2d2 {
+    padding-bottom: 20px;
+}
+
+#p1pl3d1:first-child::first-line{
+    color: rebeccapurple;
+    font-size: 55px;
+}
+
+#textodato5 {
+    text-align: justify;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:large ;
+}
+
+#p1pl3d1 {
+    padding-bottom: 20px;
+}
+
+#p1pl3d2:first-child::first-line{
+    color: rebeccapurple;
+    font-size: 60px;
+}
+
+#textodato6 {
+    text-align: justify;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size:large ;
+}
+
+#p1pl3d2 {
+    padding-bottom: 20px;
+}
